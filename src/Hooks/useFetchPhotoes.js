@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 function useFetchPhotos() {
-  const [photos, setPhotos] = useState({});
+  const [photos, setPhotos] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
